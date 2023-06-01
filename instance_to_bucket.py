@@ -7,5 +7,5 @@ def upload(filename, bucket):
         client.upload_fileobj(f, bucket, filename)
 
 
-upload("data.csv", "hohlokidbucket")
-upload("plot.png", "hohlokidbucket")
+upload("data.csv", "hohlokidlab4")
+upload("plot.png", "hohlokidlab4")
